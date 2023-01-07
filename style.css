@@ -1,0 +1,159 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(img/denim.png) ;
+}
+
+.top-bar {
+    background-color: gray;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    border-bottom: 5px solid black;
+}
+
+.container {
+    width: 1150px;
+    margin: 80px auto;
+    background-color: white;
+    border: 5px double gray;
+    position: relative;
+}
+
+.spotify {
+    width: 222px;
+    height: 83px;
+    background-image: url(img/download.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: burlywood;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 650px;
+    background-image: url(img/chainsaw.png);
+    background-size: cover;
+    background-position: 0 -30px;
+    border: 5px solid gray;
+}
+
+.main {
+    width: 650px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    border-right: 5px solid gray;
+}
+
+.main h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    margin-top: -15px;
+    font-size: 13px;
+
+}
+
+.main .penulis a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.main p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: #000;
+}
+
+.sidebar img {
+    width: 150px; 
+    height: 150px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 15px/30px helvetica;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+
+
+
+
+/*clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
